@@ -1,15 +1,36 @@
+
+
+
 header .container {
     display: flex;
     justify-content: space-between;
     align-items: center;
     max-width: 1200px;
-    margin: 0 auto;
+    margin: auto;
     padding: 0 20px;
+    background-color: black;
+    border-radius: 1rem;
+    width: 700px;
+    margin-top: 10px;
 }
 
 header h1 {
     margin: 0;
     font-size: 1.5rem;
+    color: white;
+}
+
+h1 a { 
+    text-decoration: none;
+    color: white;
+}
+
+h1 a:hover {
+    color:yellow
+}
+
+main h2 {
+    background: color black
 }
 
 header nav ul {
@@ -24,14 +45,14 @@ header nav ul li {
 }
 
 header nav ul li a {
-    color: black;
+    color: white;
     text-decoration: none;
     font-weight: bold;
     transition: color 0.3s;
 }
 
 header nav ul li a:hover {
-    color: blue;
+    color: yellow;
 }
 
 body {
@@ -39,12 +60,42 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    color: #333;
+    color: white;
     line-height: 1.6;
     text-align: center;
+}
+
+body {
+    background-image: url('/images/Flag_of_Lithuania.svg.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+
 }
 
 img {
     width: 300px;
     border-radius: 1em;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+footer a:hover {
+    color: red;
+}
+
+footer p {
+    color: white
+}
+
+footer {
+    background-color: black;
+    border-radius: 1rem;
+    margin: auto;
+    width: 400px;
 }
