@@ -137,6 +137,18 @@ footer {
     display: grid;
 }
 
+.spin {
+    transition: transform 0.6s;
+}
+
+.spin:hover {
+    transform: rotate(360deg);
+}
+
+.gap2 {
+    margin-top: 2rem;
+}
+
 /* Custom classes */
 
 .downsmariusbilde {
@@ -189,4 +201,26 @@ footer {
 
 .photoalbumgorge {
     gap: 1rem;
+}
+
+.grandkidswalk {
+    border-radius: 1em;
+    box-shadow: 0 0 20px 10px red;
+    outline: 3px solid red;
+}
+
+.happyemoji {
+    justify-content: center;
+    width: 100px;
+    margin-bottom: 20rem;
+    animation: spin 5s linear infinite;
+}
+
+@keyframes spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
 }
