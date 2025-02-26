@@ -158,3 +158,9 @@ footer {
     top: 0;
     margin-left: 15rem;
 }
+
+.portfolioimages img {
+    margin-top: 2rem;
+    width: 800px;
+    height: auto;
+}
