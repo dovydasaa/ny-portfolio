@@ -99,3 +99,62 @@ footer {
     margin: auto;
     width: 400px;
 }
+
+/* Ultility classes */
+
+.flex-row {
+    display: flex;
+}
+
+.flex-col {
+    display: flex;
+    flex-direction: column;
+}
+
+.center {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.text-black {
+    color: black;
+}
+
+.relative {
+    position: relative;
+}
+
+.absolute {
+    position: absolute;
+}
+
+/* Custom classes */
+
+.downsmariusbilde {
+    width: 300px;
+    border-radius: 1em;
+    margin-top: 8rem;
+    box-shadow: 0 0 20px 10px black;
+    outline: 5px solid red;
+}
+
+.interpol {
+    width: 100px;
+    border-radius: 1em;
+    margin-top: 8rem;
+    box-shadow: 0 0 20px 10px red;
+    outline: 3px solid red;
+    top: 0;
+    margin-left: 100px;
+}
+
+.neger {
+    width: 120px;
+    border-radius: 1em;
+    margin-top: 8rem;
+    box-shadow: 0 0 20px 10px red;
+    outline: 3px solid red;
+    top: 0;
+    margin-left: 15rem;
+}
